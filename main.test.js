@@ -1,4 +1,32 @@
+let x =3;
+let y = 10;
+let z = 5;
+let name ='David';
+let greeting = 'HEY'
 
+
+multiply = (newNumber)=> {
+x *= newNumber;
+};
+
+modYBy = (divide) => {
+y %= divide;
+};
+
+opposite = (oppo) => {
+ z = oppo * -1;
+};
+
+
+makeFullName = (lastName) => {
+  name = name + ' ' + lastName;
+}
+;
+
+
+yellAt = (string) => {
+greeting = greeting + ', ' + string + '!';
+};
 
 /*********************************************************************************************************************
 
